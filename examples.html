@@ -3,15 +3,36 @@
 
 <head>
     <meta charset="utf-8">
-    meta<name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examples Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examples page</title>
 </head>
 
 <body>
-    <a href="http://google.com" rel="noopener noreferrer">
-    <img src="icee.jpg" alt="image of a bad joke" width="300" height="200">
-</a>
+    <h1>html links examples</h1>
 
-<h2 id="Example">Example</h2>
+    <p>here's an image link:</p>
+    <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+        <img src="icee.jpg" alt="image of a bad joke" width="300" height="200">
+    </a>
+
+    <p>text link to another page (relative url):</p>
+    <a href="test.html">go to test page</a>
+
+    <p>text link to another page (absolute url):</p>
+    <a href="http://example.com/test.html">go to example test page</a>
+
+    <p>link to a section on this page:</p>
+    <a href="#example-section">jump to example section</a>
+
+    <h2 id="example-section">example section</h2>
+    <p>this is the section the link jumps to. you can add whatever content you want here.</p>
+
+    <p>link that opens in a new tab:</p>
+    <a href="http://wikipedia.org" target="_blank" rel="noopener noreferrer">visit wikipedia</a>
+
+    <p>example of an email link:</p>
+    <a href="mailto:someone@example.com">send an email</a>
 
 </body>
+
+</html>
